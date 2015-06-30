@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     UIButton *btn=[UIButton buttonWithType:UIButtonTypeCustom];
+    [self.view addSubview:btn];
 }
 
 - (void)didReceiveMemoryWarning {
