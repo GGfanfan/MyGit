@@ -19,6 +19,7 @@
     UIButton *btn=[UIButton buttonWithType:UIButtonTypeCustom];
     [self.view addSubview:btn];
     [self.view bringSubviewToFront:btn];
+    NSLog(@"aaa");
 }
 
 - (void)didReceiveMemoryWarning {
