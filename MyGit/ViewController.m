@@ -20,6 +20,7 @@
     [self.view addSubview:btn];
     [self.view bringSubviewToFront:btn];
     NSLog(@"aaa");
+    UIImage *image=[UIImage imageNamed:@"aaaa"];
 }
 
 - (void)didReceiveMemoryWarning {
